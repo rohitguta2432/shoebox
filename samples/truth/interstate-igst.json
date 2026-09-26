@@ -1,0 +1,63 @@
+{
+  "id": "interstate-igst",
+  "title": "Inter-state IGST invoice",
+  "expect": "ready",
+  "bill": {
+    "supplierName": "Deccan Electricals",
+    "supplierGstin": "29AAGCM7316P1ZS",
+    "buyerName": "Sai Hardware",
+    "buyerGstin": "27ABMPS6604K1Z4",
+    "invoiceNumber": "DE/2627/00931",
+    "invoiceDate": "19-09-2026",
+    "placeOfSupply": "27-Maharashtra",
+    "lines": [
+      {
+        "description": "PVC Wire 1.5 sq mm, 90 m",
+        "hsn": "8544",
+        "quantity": 6,
+        "unit": "roll",
+        "rate": 1450,
+        "gstRate": 18,
+        "discount": null,
+        "amount": 8700
+      },
+      {
+        "description": "Modular Switch 6A",
+        "hsn": "8536",
+        "quantity": 100,
+        "unit": "pcs",
+        "rate": 38.5,
+        "gstRate": 18,
+        "discount": null,
+        "amount": 3850
+      },
+      {
+        "description": "MCB 32A Single Pole",
+        "hsn": "8536",
+        "quantity": 20,
+        "unit": "pcs",
+        "rate": 212,
+        "gstRate": 18,
+        "discount": null,
+        "amount": 4240
+      },
+      {
+        "description": "Extension Board 4-way",
+        "hsn": "8536",
+        "quantity": 12,
+        "unit": "pcs",
+        "rate": 289,
+        "gstRate": 18,
+        "discount": null,
+        "amount": 3468
+      }
+    ],
+    "taxableTotal": 20258,
+    "cgst": null,
+    "sgst": null,
+    "igst": 3646.44,
+    "cess": null,
+    "roundOff": -0.44,
+    "grandTotal": 23904
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "thermal-receipt",
+  "title": "Thermal till receipt",
+  "expect": "ready",
+  "bill": {
+    "supplierName": "Pixel Computers",
+    "supplierGstin": "27AAPFP2267D1Z3",
+    "buyerName": "Anand Kirana Store",
+    "buyerGstin": "27AAHCP5519L1ZZ",
+    "invoiceNumber": "PC-118307",
+    "invoiceDate": "22-Sep-2026",
+    "placeOfSupply": "Maharashtra",
+    "lines": [
+      {
+        "description": "Toner Cartridge 88A",
+        "hsn": "8443",
+        "quantity": 2,
+        "unit": null,
+        "rate": 1150,
+        "gstRate": null,
+        "discount": null,
+        "amount": 2300
+      },
+      {
+        "description": "USB Mouse, wired",
+        "hsn": "8471",
+        "quantity": 5,
+        "unit": null,
+        "rate": 245,
+        "gstRate": null,
+        "discount": null,
+        "amount": 1225
+      },
+      {
+        "description": "HDMI Cable 1.5m",
+        "hsn": "8544",
+        "quantity": 4,
+        "unit": null,
+        "rate": 180,
+        "gstRate": null,
+        "discount": null,
+        "amount": 720
+      },
+      {
+        "description": "Pen Drive 64GB",
+        "hsn": "8523",
+        "quantity": 3,
+        "unit": null,
+        "rate": 499,
+        "gstRate": null,
+        "discount": null,
+        "amount": 1497
+      }
+    ],
+    "taxableTotal": 5742,
+    "cgst": 516.78,
+    "sgst": 516.78,
+    "igst": null,
+    "cess": null,
+    "roundOff": 0.44,
+    "grandTotal": 6776
+  }
+}

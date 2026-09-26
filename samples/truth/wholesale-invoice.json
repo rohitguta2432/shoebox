@@ -1,0 +1,83 @@
+{
+  "id": "wholesale-invoice",
+  "title": "Wholesale tax invoice",
+  "expect": "ready",
+  "bill": {
+    "supplierName": "Shree Ganesh Traders",
+    "supplierGstin": "27AAKFS4821M1ZQ",
+    "buyerName": "Anand Kirana Store",
+    "buyerGstin": "27AAHCP5519L1ZZ",
+    "invoiceNumber": "SGT/26-27/0412",
+    "invoiceDate": "12/09/2026",
+    "placeOfSupply": "27-Maharashtra",
+    "lines": [
+      {
+        "description": "Glucose Biscuit 800g",
+        "hsn": "1905",
+        "quantity": 24,
+        "unit": "pcs",
+        "rate": 85,
+        "gstRate": 5,
+        "discount": null,
+        "amount": 2040
+      },
+      {
+        "description": "Iodised Salt 1kg",
+        "hsn": "2501",
+        "quantity": 50,
+        "unit": "pcs",
+        "rate": 24,
+        "gstRate": 0,
+        "discount": null,
+        "amount": 1200
+      },
+      {
+        "description": "Detergent Powder 1kg",
+        "hsn": "3402",
+        "quantity": 20,
+        "unit": "pcs",
+        "rate": 95,
+        "gstRate": 18,
+        "discount": null,
+        "amount": 1900
+      },
+      {
+        "description": "Toor Dal 1kg",
+        "hsn": "0713",
+        "quantity": 30,
+        "unit": "pcs",
+        "rate": 148,
+        "gstRate": 5,
+        "discount": null,
+        "amount": 4440
+      },
+      {
+        "description": "Sunflower Oil 1L",
+        "hsn": "1512",
+        "quantity": 24,
+        "unit": "pcs",
+        "rate": 132.5,
+        "gstRate": 5,
+        "discount": null,
+        "amount": 3180
+      },
+      {
+        "description": "Toothpaste 150g",
+        "hsn": "3306",
+        "quantity": 36,
+        "unit": "pcs",
+        "rate": 76.25,
+        "gstRate": 5,
+        "discount": null,
+        "amount": 2745
+      }
+    ],
+    "taxableTotal": 15505,
+    "cgst": 481.13,
+    "sgst": 481.13,
+    "igst": null,
+    "cess": null,
+    "roundOff": -0.26,
+    "grandTotal": 16467
+  }
+}

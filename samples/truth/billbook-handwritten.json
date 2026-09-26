@@ -1,0 +1,53 @@
+{
+  "id": "billbook-handwritten",
+  "title": "Handwritten bill book",
+  "expect": "fix",
+  "bill": {
+    "supplierName": "Balaji Provision Stores",
+    "supplierGstin": "27AASFB9043H1Z2",
+    "buyerName": "Anand Kirana Store",
+    "buyerGstin": "27AAHCP5519L1ZZ",
+    "invoiceNumber": "347",
+    "invoiceDate": "24/9/26",
+    "placeOfSupply": null,
+    "lines": [
+      {
+        "description": "Sugar 50 kg bag",
+        "hsn": "1701",
+        "quantity": 2,
+        "unit": null,
+        "rate": 2150,
+        "gstRate": null,
+        "discount": null,
+        "amount": 4300
+      },
+      {
+        "description": "Wheat Atta 10 kg",
+        "hsn": "1101",
+        "quantity": 5,
+        "unit": null,
+        "rate": 420,
+        "gstRate": null,
+        "discount": null,
+        "amount": 2100
+      },
+      {
+        "description": "Rice 25 kg",
+        "hsn": "1006",
+        "quantity": 2,
+        "unit": null,
+        "rate": 1450,
+        "gstRate": null,
+        "discount": null,
+        "amount": 2900
+      }
+    ],
+    "taxableTotal": 9300,
+    "cgst": 232.5,
+    "sgst": 232.5,
+    "igst": null,
+    "cess": null,
+    "roundOff": null,
+    "grandTotal": 9675
+  }
+}
